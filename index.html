@@ -1,9 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Universal Amity</title>
+    <meta name="keywords" content="universal amity, charity, ua, ku, khulna, universal amity khulna">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
 </head>
+
+<body class="font-inter">
+    <div id="backToTop" class="fixed hidden z-10  bottom-0 right-0 text-4xl mb-6 mr-6 p-2 invisible md:visible">
+        <a href="#top">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="fill-current text-white h-12 w-12 bg-custom-yellow p-3 shadow-xl rounded-full" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- container start -->
+    <section id="top" class="container mx-auto font-inter md:px-40">
+        <!-- nav start -->
+        <nav class="flex items-center py-2 flex-wrap rounded-lg px-2 md:px-0">
+            <a href="index.html" class="py-2 mr-4 inline-flex items-center">
+                <img class="h-10 -mt-2" src="./assets/icons/ua_logo_small.png" alt="universal_amity_logo">
+                <span class="text-xl lg:text-2xl font-bold text-custom-green uppercase tracking-wide ml-2">Universal
+                    Amity</span>
+            </a>
+            <button onclick="navToggler()" class="text-custom-green inline-flex rounded lg:hidden ml-auto outline-none">
+                <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navItems">
+                <div
+                    class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+                    <a href="#about"
+                        class="tracking-tight lg:inline-flex lg:w-auto w-full px-2 md:px-4 py-2 rounded text-custom-green text-base md:text-xl items-center justify-center hover:text-custom-yellow transition duration-200 ease-in-out">
+                        <span>About us</span>
+                    </a>
+                    <a href="#work"
+                        class="tracking-tight lg:inline-flex lg:w-auto w-full px-2 md:px-4 py-2 rounded text-custom-green text-base md:text-xl items-center justify-center hover:text-custom-yellow transition duration-200 ease-in-out">
+                        <span>Our Work</span>
+                    </a>
+                    <a href="mailto:universalamitybd@gmail.com" target="_blank"
+                        class="tracking-tight lg:inline-flex lg:w-auto w-full px-2 md:px-4 py-2 rounded text-custom-green text-base md:text-xl items-center justify-center hover:text-custom-yellow transition duration-200 ease-in-out">
+                        <span>Get Involved</span>
+                    </a>
+                    <a href="#contact"
+                        class="tracking-tight lg:inline-flex lg:w-auto w-full pl-2 md:pl-4 py-2 rounded text-custom-green text-base md:text-xl items-center justify-center hover:text-custom-yellow transition duration-200 ease-in-out">
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+    </section>
+    <!-- container end -->
+
+    <!-- hero item start -->
+    <div class="w-full h-screen bg-center bg-no-repeat bg-cover"
+        style="background-image: url('assets/images/top_hero_banner.jpg');">
+        <div class="w-full h-screen bg-opacity-50 bg-black flex justify-center items-center relative">
+            <div class="mx-4 text-center text-white">
+                <h1 class="font-bold text-4xl md:text-7xl mb-4">Serving Humanity irrespective of<br>caste, creed or
+                    color</h1>
+                <h2 class="text-lg md:text-3xl mb-12 pt-2 md:pt-5 text-white tracking-wide">Helping those who needs it
+                </h2>
+            </div>
+            <div class="absolute bottom-60">
+                <a href="./donate.html"
+                    class="rounded text-lg text-white font-bold px-10 py-4 transition duration-200 ease-in-out bg-custom-yellow hover:bg-yellow-700 mr-6">
+                    Donate
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- hero item end -->
+
+    <!-- container start -->
+    <section id="about" class="container mx-auto font-inter md:px-40">
+
+        <!-- what we do start -->
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="text-center mb-20">
+                    <h1 class="text-xs font-bold title-font text-custom-green mb-4 uppercase">What do we do?</h1>
+                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
+                        Helping people is our mantra. If any people need help, we are there to help. Even though we do
+                        various types of charity works, we can only focus on a few.
+                    </p>
+                    <div class="flex mt-6 justify-center">
+                        <div class="w-16 h-1 rounded-full bg-custom-yellow inline-flex"></div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                    <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full mb-5 flex-shrink-0">
+                            <svg id="" class="fill-current text-custom-yellow" stroke="currentColor" height="512"
+                                viewBox="0 0 511.995 511.995" width="512" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="m215.144 416.673v-20.005c0-.079-.001-.157-.003-.235-.364-15.481-.741-31.489-5.183-48.167-10.127-37.92-32.083-58.858-73.406-70.011-1.137-.307-2.609-.454-3.63-1.041-.856-.492-1.455-1.848-1.952-2.657l-26.038-42.261c-4.821-7.865-12.44-13.382-21.452-15.537l-6.245-80.616c-1.469-18.805-15.958-33.015-33.703-33.054-.025 0-.048 0-.074 0-17.985 0-32.496 14.207-33.765 33.076l-3.569 53.105c-.371 5.51 3.796 10.278 9.307 10.648 5.501.362 10.278-3.796 10.648-9.307l3.572-53.106c.553-8.226 6.488-14.418 13.812-14.418h.028c8.316.018 13.24 7.364 13.806 14.605l6.213 80.209c-2.148.792-4.233 1.802-6.225 3.03-16.246 10.016-21.338 31.387-11.345 47.649l42.208 68.522c2.896 4.702 9.057 6.166 13.759 3.27s6.166-9.057 3.27-13.759l-42.202-68.513c-4.222-6.871-2.065-15.908 4.807-20.145 3.281-2.023 7.299-2.642 11.045-1.748 3.812.91 7.028 3.231 9.067 6.558l26.042 42.266c5.219 8.502 9.108 10.293 16.739 12.351l.658.178c39.697 10.713 52.417 30.081 59.302 55.858 3.818 14.333 4.174 29.09 4.51 43.365v18.675h-90.438v-1.505c0-30.907-30.491-56.967-50.668-74.211-3.021-2.583-5.876-5.022-8.172-7.102l-.386-.35c-18.697-16.958-26.436-23.978-25.395-52.408.202-5.519-4.108-10.157-9.627-10.359-5.527-.223-10.159 4.11-10.36 9.629-1.381 37.726 11.876 49.751 31.944 67.953l.392.355c2.515 2.278 5.475 4.808 8.609 7.486 17.387 14.86 43.662 37.317 43.662 59.007v2.719c-10.087 3.259-17.405 12.735-17.405 23.891v36.33c0 13.842 11.264 25.104 25.108 25.104h115.03c13.845 0 25.109-11.262 25.109-25.104v-36.33c.001-11.155-7.317-20.63-17.404-23.89zm-2.595 60.221c0 2.814-2.292 5.104-5.109 5.104h-115.03c-2.769 0-5.108-2.337-5.108-5.104v-36.33c0-2.767 2.339-5.104 5.108-5.104h115.03c2.77 0 5.109 2.337 5.109 5.104z" />
+                                    <path
+                                        d="m511.896 279.152c-.003-.102-.009-.203-.016-.304l-9.58-142.683c-1.269-18.87-15.778-33.076-33.765-33.076-.024 0-.05 0-.074 0-17.745.039-32.233 14.249-33.703 33.06l-6.244 80.61c-9.012 2.154-16.63 7.671-21.44 15.517l-26.059 42.295c-.494.805-1.09 2.155-1.943 2.643-1.022.584-2.484.731-3.62 1.038-41.333 11.155-63.288 32.094-73.417 70.02-4.44 16.672-4.817 32.68-5.181 48.161-.002.079-.003.157-.003.235v20.005c-10.087 3.26-17.405 12.735-17.405 23.891v36.33c0 13.842 11.264 25.104 25.109 25.104h115.03c13.845 0 25.108-11.262 25.108-25.104v-36.33c0-11.156-7.318-20.631-17.405-23.891v-2.719c0-21.69 26.275-44.147 43.662-59.007 3.134-2.678 6.094-5.208 8.616-7.492l.385-.35c20.069-18.202 33.327-30.227 31.945-67.953zm-87.202 197.742c0 2.767-2.339 5.104-5.108 5.104h-115.03c-2.77 0-5.109-2.337-5.109-5.104v-36.33c0-2.767 2.339-5.104 5.109-5.104h115.03c2.769 0 5.108 2.337 5.108 5.104zm41.822-144.603-.379.344c-2.303 2.085-5.158 4.525-8.179 7.107-20.177 17.244-50.668 43.304-50.668 74.211v1.505h-90.438v-18.673c.336-14.275.692-29.034 4.508-43.361 6.886-25.783 19.606-45.151 59.313-55.867l.648-.175c7.631-2.058 11.521-3.848 16.73-12.336l26.063-42.3c2.027-3.307 5.243-5.628 9.055-6.538 1.388-.331 2.789-.454 4.17-.386.053.003.105.002.157.004 2.363.143 4.663.863 6.727 2.136 3.32 2.042 5.649 5.272 6.558 9.096.906 3.813.284 7.729-1.754 11.033l-42.208 68.522c-2.896 4.702-1.433 10.862 3.27 13.759s10.863 1.433 13.759-3.27l42.204-68.516c4.843-7.85 6.33-17.138 4.188-26.152-2.145-9.027-7.664-16.665-15.529-21.502-1.992-1.228-4.076-2.238-6.225-3.03l6.213-80.203c.566-7.247 5.49-14.593 13.806-14.611h.028c7.323 0 13.259 6.193 13.812 14.417l9.571 142.527c1.007 28.304-6.737 35.331-25.4 52.259z" />
+                                    <path
+                                        d="m123.421 212.099h44.144c-1.112 5.636-1.703 11.419-1.703 17.29v15.813c0 5.523 4.477 10 10 10h160.271c5.523 0 10-4.477 10-10v-15.813c0-5.871-.59-11.654-1.703-17.29h44.172c5.523 0 10-4.477 10-10v-15.813c0-30.603-15.729-58.927-41-75.448 8.306-10.602 13.277-23.935 13.277-38.414 0-34.422-28.011-62.426-62.441-62.426-21.741 0-41.209 11.153-52.432 28.47-11.213-17.318-30.686-28.47-52.45-28.47-34.43 0-62.441 28.004-62.441 62.426 0 14.48 4.971 27.814 13.278 38.416-25.254 16.516-40.972 44.84-40.972 75.447v15.813c0 5.522 4.477 9.999 10 9.999zm202.712 23.102h-140.271v-5.813c0-25.56 14.109-49.083 36.373-61.396 9.742 6.29 21.329 9.959 33.762 9.959s24.02-3.668 33.762-9.959c22.264 12.313 36.373 35.836 36.373 61.396v5.813zm52.47-48.915v5.813h-40.621c-7.047-15.399-18.375-28.711-32.826-38.161 4.524-5.775 8.061-12.356 10.339-19.499 9.759-1.103 18.838-4.465 26.711-9.547 22.278 12.319 36.397 35.841 36.397 61.394zm-70.165-156.288c23.402 0 42.441 19.032 42.441 42.426 0 19.967-13.874 36.745-32.488 41.236-.84-28.833-21.319-52.811-48.506-59.012 6.791-14.743 21.659-24.65 38.553-24.65zm-52.44 43.073c23.402 0 42.441 19.032 42.441 42.426 0 23.409-19.039 42.454-42.441 42.454s-42.441-19.045-42.441-42.454c0-23.394 19.039-42.426 42.441-42.426zm-52.441-43.073c16.916 0 31.788 9.906 38.564 24.647-27.193 6.196-47.677 30.178-48.517 59.014-18.614-4.49-32.488-21.269-32.488-41.236-.001-23.393 19.038-42.425 42.441-42.425zm-70.136 156.288c0-25.559 14.108-49.08 36.369-61.394 7.873 5.082 16.952 8.444 26.711 9.547 2.278 7.143 5.815 13.724 10.339 19.499-14.451 9.449-25.779 22.762-32.826 38.161h-40.593z" />
+                                    <path
+                                        d="m13.096 244.744c5.523 0 10-4.505 10-10.028s-4.477-10-10-10-10 4.477-10 10v.057c0 5.522 4.477 9.971 10 9.971z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="flex-grow">
+                            <h2 class="text-custom-green text-2xl title-font font-bold mb-3">Aid for life</h2>
+                            <p class="leading-relaxed text-base text-gray-500">
+                                Helping those who are financially weak not only improves their livlihood but also
+                                improves the overall socio-economic situation of the society.
+                            </p>
+                            <!-- <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a> -->
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                        <div
+                            class="w-20 h-20 inline-flex items-center justify-center rounded-full text-indigo-500 mb-5 flex-shrink-0">
+                            <svg class="fill-current text-custom-yellow stroke-current stroke-1" id="Icons" height="512"
+                                viewBox="0 0 74 74" width="512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m63.24 36.59a1 1 0 0 1 -1-1v-6.24a1 1 0 1 1 2 0v6.24a1 1 0 0 1 -1 1z" />
+                                <path
+                                    d="m63.24 57.58h-42.24a1 1 0 0 1 -1-1v-53.58a1 1 0 0 1 1-1h42.24a1 1 0 0 1 1 1v21.35a1 1 0 1 1 -2 0v-20.35h-40.24v51.58h40.24v-3.76a1 1 0 1 1 2 0v4.76a1 1 0 0 1 -1 1z" />
+                                <path d="m63.24 47.82a1 1 0 0 1 -1-1v-6.23a1 1 0 0 1 2 0v6.23a1 1 0 0 1 -1 1z" />
+                                <path
+                                    d="m11.76 64.79a1 1 0 0 1 -1-1v-53.79a8.009 8.009 0 0 1 8-8h2.24a1 1 0 0 1 0 2h-2.24a6.006 6.006 0 0 0 -6 6v53.79a1 1 0 0 1 -1 1z" />
+                                <path
+                                    d="m63.24 72h-44.27a8.21 8.21 0 1 1 0-16.42h44.27a1 1 0 0 1 1 1v14.42a1 1 0 0 1 -1 1zm-44.27-14.42a6.21 6.21 0 1 0 0 12.42h43.27v-12.42z" />
+                                <path d="m50.87 18h-17.5a1 1 0 0 1 0-2h17.5a1 1 0 1 1 0 2z" />
+                                <path d="m54.87 24h-25.5a1 1 0 0 1 0-2h25.5a1 1 0 1 1 0 2z" />
+                            </svg>
+                        </div>
+                        <div class="flex-grow">
+                            <h2 class="text-custom-green text-2xl title-font font-bold mb-3">Aid for education</h2>
+                            <p class="leading-relaxed text-base text-gray-500">
+                                Helping financially weak but meritorious students so that they can continue their study
+                                which is very important for us.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                        <div
+                            class="w-20 h-20 inline-flex items-center justify-center rounded-full text-indigo-500 mb-5 flex-shrink-0">
+                            <svg class="fill-current text-custom-yellow" height="512pt" viewBox="0 -26 512 512"
+                                width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m346 410c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m406 310c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m366 250c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m326 310c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m266 210c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m266 270c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m206 310c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m166 250c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m126 310c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 4.476562-10 10-10 10 4.476562 10 10zm0 0" />
+                                <path
+                                    d="m63.375 419.109375 12.148438 24.304687c5.121093 10.230469 15.402343 16.585938 26.835937 16.585938h307.28125c11.433594 0 21.71875-6.355469 26.835937-16.585938l11.90625-23.816406c31.320313-3.792968 63.617188-33.664062 63.617188-69.597656 0-5.523438-4.476562-10-10-10h-2.695312c-7.136719-15.398438-17.183594-22.683594-24.761719-28.175781-8.066407-5.847657-9.75-7.308594-9.007813-13.75 2.917969-25.351563-9.789062-53.296875-23.015625-62.523438-15.496093-10.8125-27.296875-13.050781-35.109375-14.535156-7.332031-1.390625-8.382812-1.777344-10.378906-5.324219-12.40625-22.015625-35.792969-35.691406-61.03125-35.691406-6.578125 0-12.125 1.15625-16.582031 2.082031-8.386719 1.75-10.300781 1.976563-14.335938-1.992187-13.171875-12.949219-30.59375-20.082032-49.0625-20.089844-.007812 0-.015625 0-.023437 0-18.472656 0-35.902344 7.132812-49.074219 20.089844-4.039063 3.96875-5.957031 3.738281-14.363281 1.988281-4.453125-.925781-9.992188-2.078125-16.558594-2.078125-33.273438 0-47.230469 17.886719-56.464844 29.726562-5.144531 6.589844-8.226562 10.339844-11.804687 10.75-20.140625 2.308594-36.652344 11.097657-47.753907 25.414063-11.355468 14.644531-16.085937 33.746094-13.3125 53.78125.589844 4.261719-.300781 5.449219-8.640624 11.566406-7.792969 5.707031-18.121094 13.28125-25.324219 28.761719h-2.699219c-5.523438 0-10 4.476562-10 10 0 35.667969 26.332031 63.917969 63.375 69.109375zm378.625-19.109375h-66c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h49.820312l-7.234374 14.46875c-1.707032 3.410156-5.136719 5.53125-8.945313 5.53125h-307.28125c-3.8125 0-7.238281-2.121094-8.945313-5.53125l-7.234374-14.46875h209.820312c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-220c-29.730469 0-50.441406-17.34375-55.015625-40.007812h469.761719c-5.625 22.394531-29.089844 40.007812-48.746094 40.007812zm-392.152344-72.632812c8.429688-6.179688 18.921875-13.867188 16.628906-30.4375-2-14.445313 1.394532-28.582032 9.304688-38.785157 7.726562-9.960937 19.5625-16.117187 34.230469-17.800781 12.082031-1.382812 19.101562-10.378906 25.292969-18.316406 8.835937-11.328125 17.183593-22.027344 40.695312-22.027344 4.507812 0 8.5625.84375 12.488281 1.660156 9.203125 1.914063 20.652344 4.292969 32.453125-7.308594 19.328125-19.011718 50.785156-19.011718 70.117188 0 11.804687 11.609376 23.246094 9.226563 32.4375 7.3125 3.925781-.820312 7.984375-1.664062 12.503906-1.664062 18.03125 0 34.742188 9.773438 43.605469 25.507812 6.675781 11.855469 15.917969 13.609376 24.074219 15.15625 7.222656 1.371094 15.410156 2.925782 27.398437 11.289063 6.238281 4.351563 16.777344 24.808594 14.585937 43.835937-2.101562 18.285157 8.566407 26.015626 17.140626 32.226563 4.5625 3.304687 9.210937 6.691406 13.289062 11.984375h-440.171875c4.234375-5.515625 9.128906-9.117188 13.925781-12.632812zm0 0" />
+                                <path
+                                    d="m273.476562 3.359375c-3.667968-4.128906-9.992187-4.503906-14.117187-.835937-4.128906 3.671874-4.503906 9.992187-.832031 14.117187 9.894531 11.136719 9.894531 35.582031 0 46.71875-16.738282 18.832031-16.738282 54.449219 0 73.28125 3.660156 4.125 9.984375 4.507813 14.117187.835937 4.128907-3.671874 4.5-9.992187.832031-14.117187-9.894531-11.136719-9.894531-35.582031 0-46.71875 16.738282-18.832031 16.738282-54.449219 0-73.28125zm0 0" />
+                                <path
+                                    d="m213.476562 3.359375c-3.667968-4.128906-9.992187-4.503906-14.117187-.835937-4.128906 3.671874-4.503906 9.992187-.832031 14.117187 9.894531 11.136719 9.894531 35.582031 0 46.71875-16.738282 18.832031-16.738282 54.449219 0 73.28125 3.660156 4.125 9.984375 4.507813 14.117187.835937 4.128907-3.671874 4.5-9.992187.832031-14.117187-9.894531-11.136719-9.894531-35.582031 0-46.71875 16.738282-18.832031 16.738282-54.449219 0-73.28125zm0 0" />
+                                <path
+                                    d="m333.476562 3.359375c-3.667968-4.128906-9.992187-4.503906-14.117187-.835937-4.128906 3.671874-4.503906 9.992187-.832031 14.117187 9.894531 11.136719 9.894531 35.582031 0 46.71875-16.738282 18.832031-16.738282 54.449219 0 73.28125 3.660156 4.125 9.984375 4.507813 14.117187.835937 4.128907-3.671874 4.5-9.992187.832031-14.117187-9.894531-11.136719-9.894531-35.582031 0-46.71875 16.738282-18.832031 16.738282-54.449219 0-73.28125zm0 0" />
+                            </svg>
+                        </div>
+                        <div class="flex-grow">
+                            <h2 class="text-custom-green text-2xl title-font font-bold mb-3">Food for the unfed</h2>
+                            <p class="leading-relaxed text-base text-gray-500">
+                                The worst pain in the world in the pain of not being able to afford food. So we always try to make sure this doesn't happen to anyone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what we do end -->
+
+        <hr id="work">
+
+        <!-- our works start -->
+        <section class="text-gray-600 body-font mt-20 mb-24 md:mb-28 md:mt-24">
+            <div class="container px-5 mx-auto">
+                <div class="text-center mb-20">
+                    <h1 class="text-xs font-bold title-font text-custom-green mb-4 uppercase">Our work</h1>
+                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
+                        We are always working constantly to bring smile to new faces every day. No feeling is better
+                        than the gratitude we get from the people we help.
+                    </p>
+                    <div class="flex mt-6 justify-center">
+                        <div class="w-16 h-1 rounded-full bg-custom-yellow inline-flex"></div>
+                    </div>
+                </div>
+
+                <!-- proj 1 -->
+                <div class="container mx-auto flex px-5 md:flex-row flex-col items-center mb-12">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                        <img loading=lazy class="object-cover object-center rounded" alt="mashjid_construction_project"
+                            src="./assets/images/2.jpg">
+                    </div>
+                    <div
+                        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                        <h1 class="text-custom-green text-2xl title-font font-bold mb-4">Mashjid Construction Project
+                        </h1>
+                        <p class="mb-4 leading-relaxed text-gray-500">
+                            A newly built mosque in south-west of Harinagar where people can have their prayer in a
+                            well-built place for the first time ever.
+                        </p>
+                        <div class="flex justify-center items-center">
+                            <a class="text-custom-yellow inline-flex items-center"
+                                href="https://www.facebook.com/universalamitybd/posts/1312571662458863" target="_blank">
+                                <span class="underline">Learn more</span>
+                                &nbsp;
+                                <svg class="h-5 w-5 text-custom-yellow" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proj 2 -->
+                <div class="container mx-auto flex px-5 md:flex-row flex-col items-center mb-12">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                        <img loading=lazy class="object-cover object-center rounded" alt="winter_care_program"
+                            src="./assets/images/1.jpg">
+                    </div>
+                    <div
+                        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                        <h1 class="text-custom-green text-2xl title-font font-bold mb-4">Winter Care Program
+                        </h1>
+                        <p class="mb-4 leading-relaxed text-gray-500">
+                            Blanket distribution to people in various places such as Kurigram, Panchagarh, Lalmonirhat,
+                            Koyra, Khulna, Shatkhira etc.
+                        </p>
+                        <div class="flex justify-center items-center">
+                            <a class="text-custom-yellow inline-flex items-center"
+                                href="https://www.facebook.com/universalamitybd/posts/1300209320361764" target="_blank">
+                                <span class="underline">Learn more</span>
+                                &nbsp;
+                                <svg class="h-5 w-5 text-custom-yellow" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- proj 3 -->
+                <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                        <img loading=lazy class="object-cover object-center rounded" alt="food_for_good"
+                            src="./assets/images/3.jpg">
+                    </div>
+                    <div
+                        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                        <h1 class="text-custom-green text-2xl title-font font-bold mb-4">Food For Good
+                        </h1>
+                        <p class="mb-4 leading-relaxed text-gray-500">
+                            Celebration of a person's marriage anniversary by giving food to the homeless people. What a
+                            great gesture indeed!
+                        </p>
+                        <div>
+                            <a class="text-custom-yellow inline-flex items-center"
+                                href="https://www.facebook.com/universalamitybd/posts/1307376512978378" target="_blank">
+                                <span class="underline">Learn more</span>
+                                &nbsp;
+                                <svg class="h-5 w-5 text-custom-yellow" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="mt-16 md:mt-28 container mx-auto">
+                    <a href="https://www.facebook.com/universalamitybd" target="_blank"
+                        class="ml-0 md:ml-4 rounded md:mt-0 text-xl border border-custom-yellow md:mx-6 px-6 hover:bg-custom-yellow hover:text-white py-2 transition duration-200 ease-in-out">
+                        See our other works
+                    </a>
+                </button>
+            </div>
+        </section>
+        <!-- our works end -->
+
+        <hr>
+
+        <!-- featured start -->
+        <section class="text-gray-600 body-font mt-20 mb-20 md:mb-28 md:mt-24">
+            <div class="container px-5 mx-auto">
+                <div class="text-center mb-20">
+                    <h1 class="text-xs font-bold title-font text-custom-green mb-4 uppercase">We are featured in</h1>
+                    <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
+                        By continuing our work, we have managed to make an impact in the socio-economic sector which has
+                        been published in several news outlets.
+                    </p>
+                    <div class="flex mt-6 justify-center">
+                        <div class="w-16 h-1 rounded-full bg-custom-yellow inline-flex"></div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-0 pb-1 md:px-8 md:py-6 mx-auto">
+                        <img src="./assets/logos/jugantor-logo.png" alt="jugantor-logo">
+                    </div>
+                    <div
+                        class="xl:w-1/4 lg:w-1/2 md:w-full px-0 py-1 md:px-8 md:py-6  border-l-2 border-white md:border-gray-200 border-opacity-60">
+                        <img src="./assets/logos/bhorer_kagoj-logo.png" alt="bhorer_kagoj-logo">
+                    </div>
+                    <div
+                        class="xl:w-1/4 lg:w-1/2 md:w-full px-0 py-1 md:px-8 md:py-6  border-l-2 border-white md:border-gray-200 border-opacity-60">
+                        <img src="./assets/logos/desh_rupantor-logo.png" alt="desh_rupantor-logo">
+                    </div>
+                    <div
+                        class="xl:w-1/4 lg:w-1/2 md:w-full px-0 pt-1 md:px-8 md:py-6  border-l-2 border-white md:border-gray-200 border-opacity-60">
+                        <img src="./assets/logos/sarakhonbd-logo-black.png" alt="sarakhonbd-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured end -->
+
+        <hr>
+
+        <!-- cta start -->
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 pt-20 pb-12 md:pb-12 mx-auto">
+                <div class="flex flex-col text-center w-full mb-12">
+                    <p class="lg:w-2/3 mx-auto md:text-xl text-xl font-medium title-font text-custom-green">So,
+                        what are you waiting for?
+                        <br class="inline-block md:hidden">
+                        <button class="mt-8">
+                            <a href="./donate.html"
+                                class="ml-0 md:ml-4 rounded md:mt-0 text-xl border border-custom-yellow md:mx-6 px-6 hover:bg-custom-yellow hover:text-white py-2 transition duration-200 ease-in-out">
+                                Take action
+                            </a>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- cta end -->
+    </section>
+    <!-- container end -->
+
+    <section class="bg-green-50">
+
+        <!-- container start -->
+        <section class="container mx-auto font-inter md:px-40 ">
+
+            <!-- footer start -->
+            <footer class="text-custom-green body-font" id="contact">
+                <div class="container px-5 mx-auto">
+                    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                        <p class="text-sm text-custom-green sm:ml-6 mt-1 mb-4 md:mb-0"><a href="#top">© 2020 Universal
+                                Amity</a>&nbsp;<span class="hidden md:inline">—</span>
+                            <br class="inline-block md:hidden">
+                            <a href="http://farhan2077.github.io/" target="_blank" class="text-custom-green ml-1"
+                                target="_blank">Made with <span class="text-red-500">&#10084;</span> by
+                                Farhan
+                            </a>
+                        </p>
+                        <span class="inline-flex sm:ml-auto justify-center sm:justify-start items-center mb-2 md:mb-0">
+                            <a class="text-custom-green" target="_blank"
+                                href="https://www.facebook.com/universalamitybd/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                </svg>
+                            </a>
+                            <a class="ml-1 text-custom-green" href="tel:+8801723057155">+8801723057155</a>
+                            <a class="ml-2 text-custom-green" target="_blank"
+                                href="https://www.facebook.com/universalamitybd/">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3" target="_blank"
+                                href="https://www.youtube.com/channel/UCwZilwKT78N8q_jwjjDugmQ">
+                                <svg class="h-5 w-5 fill-current text-custom-green" viewBox="-21 -117 682.66672 682"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0" />
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-custom-green" target="_blank"
+                                href="https://www.linkedin.com/in/universal-amity-b5786b1a8/">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path stroke="none"
+                                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                    </path>
+                                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <!-- footer end -->
+
+    </section>
+    <!-- container end -->
+
+</body>
+<script>
+    function navToggler() {
+        var x = document.getElementById("navItems");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    // back to top functionality
+    window.addEventListener("scroll", function () {
+        // let intViewportHeight = window.innerHeight;
+        if (window.pageYOffset > 500) {
+            document.getElementById("backToTop").style.display = "block";
+        } else if (window.pageYOffset < 500) {
+            document.getElementById("backToTop").style.display = " none";
+        }
+    }, false);
+</script>
 
 </html>
