@@ -13,9 +13,6 @@ module.exports = {
                 "custom-yellow": "#DE7C00",
                 "custom-green": "#4E5B31",
             },
-            margin: {
-                78: "19.5rem",
-            },
         },
     },
     variants: {
